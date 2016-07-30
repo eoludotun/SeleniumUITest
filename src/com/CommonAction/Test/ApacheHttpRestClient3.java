@@ -17,7 +17,7 @@ public class ApacheHttpRestClient3 {
     
     HttpClient httpClient = new DefaultHttpClient();
     try {
-      HttpGet httpGetRequest = new HttpGet("http://search.twitter.com/search.json?q=%40apple");
+      HttpGet httpGetRequest = new HttpGet("http://someAPTurl");
       HttpResponse httpResponse = httpClient.execute(httpGetRequest);
 
       System.out.println("----------------------------------------");
