@@ -27,8 +27,8 @@ public class PasswordEncryptor  extends BaseClass {
 	System.setProperty("webdriver.chrome.driver", Constant.ThirdPartyChromeDriver);
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
-	driver.get("https://accounts.google.com&#8221");
-	driver.findElement(By.id("Email")).sendKeys("testerTest@gmail.com");
+	driver.get("https://someurl.com");
+	driver.findElement(By.id("Email")).sendKeys("someonetest@gmail.com");
 	driver.findElement(By.id("Passwd")).sendKeys(getDecodedpassword());
 	driver.findElement(By.id("signIn")).click();
 		
