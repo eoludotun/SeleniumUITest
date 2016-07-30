@@ -11,9 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class AppPagesPom  extends BaseClassPOM{
-	
-	
-	    private WebElement navigateLogin;
+
 
 	 //this is instantiat the Webdriver from the inheritance class
 	  
