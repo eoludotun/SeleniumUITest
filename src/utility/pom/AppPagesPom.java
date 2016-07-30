@@ -12,40 +12,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AppPagesPom  extends BaseClassPOM{
 	
-	  //This declears all the possible webelement, which in turns represent
-	   // all the functions users are expected to perform on the page.
-	 
-	   /* @FindBy(xpath=".//*[@id='account']/a")
-	 
-	    private WebElement navigateLogin;
-	 
-	     
-	    @FindBy(xpath="//*[@id='button-1062-btnInnerEl']")
-	 
-	    private WebElement selectAll;
-	    
-	    @FindBy(xpath="//*[@id='button-1063-btnInnerEl']")
-		 
-	    private WebElement deSelectAll;
-	    
-	    @FindBy(xpath="//*[@id='button-1065-btnInnerEl']")
-		 
-	    private WebElement refresh;
-	    
-	    @FindBy(xpath="//*[@id='button-1080-btnEl']")
-		 
-	    private WebElement assigmentBack;*/
 	
-	    
-	 
+	    private WebElement navigateLogin;
+
 	 //this is instantiat the Webdriver from the inheritance class
 	  
 	  public AppPagesPom(WebDriver driver) 
 	  {
 			super(driver);
-	//This initElements method will create all WebElements
-			 
-	  //PageFactory.initElements(driver, this);
+
 	  }
 		//This is use for the getting the method name, not a big deal
 	    // just for reporting purposes
