@@ -14,7 +14,7 @@ public class RESTEasyClientGet {
 	  try {
 
 		ClientRequest request = new ClientRequest(
-				"http://maps.googleapis.com/maps/api/geocode/json?address=chicago&sensor=false");
+				"http://someAPI");
 		ClientResponse<String> response = request.get(String.class);
 
 		if (response.getStatus() != 200) {
