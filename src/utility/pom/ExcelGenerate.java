@@ -11,7 +11,7 @@ public class ExcelGenerate {
 
 public static void main(String[]args) throws ParserConfigurationException, IOException, SAXException
 {
-//ExcelReportGenerator.generateExcelReport(“MyProject.xls”, “C:\\Test_Project\\SeleniumTest\\src\\utility\\pom”);
+ExcelReportGenerator.generateExcelReport(â€œMyProject.xlsâ€, â€œC:\\Test_Project\\SeleniumTest\\src\\utility\\pomâ€);
 
 }
 }
