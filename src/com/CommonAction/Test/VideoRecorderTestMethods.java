@@ -1,5 +1,5 @@
 package com.CommonAction.Test;
-/* idea here is capture a video recording of any falied test
+/* idea here is capture a video recording of any falied test, although Ebenezer needs to put in some more code to actually resolve some error messages
 This little stuff will capture vidoe recording of any failed test, and you can see the video file in your C drive mostly..!  You can play it using VLC player.*/
 public class VideoRecorderTestMethods {
 
