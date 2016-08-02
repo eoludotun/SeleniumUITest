@@ -1,5 +1,6 @@
 package com.CommonAction.Test;
-
+/* idea here is capture a video recording of any falied test
+This little stuff will capture vidoe recording of any failed test, and you can see the video file in your C drive mostly..!  You can play it using VLC player.*/
 public class VideoRecorderTestMethods {
 
 public class VideoRecorderclass {
@@ -51,5 +52,5 @@ public class VideoRecorderclass {
 	this.screenRecorder.stop();
 	}
 	}
-   /*https://seleniumbycharan.wordpress.com/2015/07/14/record-your-testcases-using-selenium-webdriver-java/
-	That’s it. You will see the video file in your C drive mostly..!  You can play it using VLC player.*/
+  
+	
