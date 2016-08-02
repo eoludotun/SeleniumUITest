@@ -15,12 +15,12 @@ public class Screenshot
 {
 	try
 	{
-	    Thread.sleep(3000);
+	    
 		File scrFile= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String fileName = folder+"/"+filePrefix +UUID.randomUUID()+".png";
 		FileUtils.copyFile(scrFile, new File(fileName),true);
 		System.out.println("GREAT !!! A Screenshot for: " + filePrefix + " taken on  " + new Date() + "  is Stored in "  + folder );
-		Thread.sleep(3000);
+	
 	}
 	catch (Exception ex)
 	{
