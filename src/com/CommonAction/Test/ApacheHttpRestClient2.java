@@ -12,15 +12,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
  * This example demonstrates an alternative way to call a URL
  * using the Apache HttpClient HttpGet and HttpResponse
  * classes.
- * 
- * I copied the guts of this example from the Apache HttpClient
- * ClientConnectionRelease class, and decided to leave all the
- * try/catch/finally handling in the class. You don't have to catch
- * all the exceptions individually like this, I just left the code
- * as-is to demonstrate all the possible exceptions.
- * 
- * Apache HttpClient: http://hc.apache.org/httpclient-3.x/
- *
+ 
 */
 public class ApacheHttpRestClient2 {
 
@@ -36,7 +28,7 @@ public class ApacheHttpRestClient2 {
       //HttpGet httpGetRequest = new HttpGet("http://weather.yahooapis.com/forecastrss?p=80020&u=f");
       
       // Example URL 2: this twitter api call returns results in a JSON format
-      HttpGet httpGetRequest = new HttpGet("http://search.twitter.com/search.json?q=%40apple");
+      HttpGet httpGetRequest = new HttpGet("http://someURL.API");
 
       // Execute HTTP request
       HttpResponse httpResponse = httpClient.execute(httpGetRequest);
