@@ -20,14 +20,8 @@ public class ApacheHttpRestClient2 {
     
     HttpClient httpClient = new DefaultHttpClient();
     try {
-      // this twitter call returns json results.
-      // see this page for more info: https://dev.twitter.com/docs/using-search
-      // http://search.twitter.com/search.json?q=%40apple
-
-      // Example URL 1: this yahoo weather call returns results as an rss (xml) feed
-      //HttpGet httpGetRequest = new HttpGet("http://weather.yahooapis.com/forecastrss?p=80020&u=f");
-      
-      // Example URL 2: this twitter api call returns results in a JSON format
+      // this API call returns json results.
+     
       HttpGet httpGetRequest = new HttpGet("http://someURL.API");
 
       // Execute HTTP request
