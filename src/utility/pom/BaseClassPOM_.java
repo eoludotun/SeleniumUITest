@@ -26,18 +26,9 @@ public class BaseClassPOM_new {
 
 	private WebDriver _driver =  null;
 
-	public BaseClassPOM_new()  
-	{
-		
-	}
-	//This is use for the getting the method name, not a big deal
-    // just for reporting purposes
-    //private static String name;
-    
     //This is for recounting the test case steps, not a big deal. but good for report purposes.(Log4j)
     private static int i = 1;
-	private static int x = 0;
-	
+    private static int x = 0;
 	
 	public WebDriver getDriver() {
 		return _driver;
@@ -184,8 +175,9 @@ public class BaseClassPOM_new {
   		return false;
   	}
   
-  	protected WebElement operateOnElement(By locator,String name) throws Exception
-    {
+  	protected WebElement operateOnElement(By locator,String name) throws Exception{
+
+    
   	  x =i++;
  	   try
  	   {  
