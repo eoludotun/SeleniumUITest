@@ -7,7 +7,7 @@ WebDriver driver;
 public void method46()
 {
 driver=new FirefoxDriver();
-driver.get(“Your url”);
+driver.get(“Your SUperURL.com”);
 driver.manage().window().maximize();
 WebElement element1= driver.findElement(By.xpath(“element xpath”));
 //scolling to the webelement
